@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --progress"
+    "start": "webpack-dashboard -- webpack-dev-server"
   },
   "dependencies": {
     "react": "^16.0.0",
@@ -21,6 +21,7 @@
     "html-webpack-plugin": "^2.30.1",
     "react-hot-loader": "^3.1.1",
     "webpack": "^3.8.1",
+    "webpack-dashboard": "^1.0.0",
     "webpack-dev-server": "^2.9.3"
   }
 }

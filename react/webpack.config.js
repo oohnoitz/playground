@@ -10,6 +10,7 @@ const resolve = config.resolve
 const IS_PRODUCTION = config.IS_PRODUCTION
 const IS_DEVELOPMENT = config.IS_DEVELOPMENT
 
+const DashboardPlugin = require('webpack-dashboard/plugin')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 
 const entry = [
@@ -42,6 +43,7 @@ if (IS_DEVELOPMENT) {
   plugins.push(
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
+    new DashboardPlugin(),
   )
 
   rules[0].use.unshift('react-hot-loader/webpack')
