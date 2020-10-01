@@ -2,7 +2,7 @@
 
 
 ## Why?
-This was an exploratory excercise. There are tons of jQuery projects out there and I believe many of us can agree that managing state/data and updating them in all the various places in the views can be extermely painful. This was determining if a library like Redux can reduce the pain and make managing state/data less painful.
+This was an exploratory excercise. There are tons of jQuery projects out there and I believe many of us can agree that managing state/data and updating them in all the various places in the views can be extermely painful. This was determining if a library like Redux can reduce the pain and make managing state/data less painful. This is the way.
 
 ## What are the takeaways?
 
